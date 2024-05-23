@@ -1,5 +1,5 @@
 import './Hero.css';
-import github from './../assets/github.png';
+import github from './../assets/github.webp';
 import linkedin from './../assets/linkedin.png';
 import headshot from './../assets/headshot.jpg';
 
@@ -12,10 +12,10 @@ function Hero () {
                 <h2>Former Product Development Intern @ Quicken Inc</h2>
                 <h2>Former Mobile QA Intern @ Quicken Inc</h2>
                 <div className="logo-container">
-                    <a href="https://github.com/ltoma001" target="_blank">
-                        <img src={github} alt="Github" className="small-image"/>
+                    <a href="https://github.com/ltoma001" target="_blank" rel="noreferrer">
+                        <img src={github} alt="Github" className="small-image" />
                     </a>
-                    <a href="https://www.linkedin.com/in/lauren-tomasi/" target="_blank">
+                    <a href="https://www.linkedin.com/in/lauren-tomasi/" target="_blank" rel="noreferrer">
                         <img src={linkedin} alt="LinkedIn" className="small-image" />
                     </a>
                 </div>

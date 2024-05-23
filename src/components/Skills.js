@@ -1,20 +1,34 @@
 import './Skills.css';
+import javascript from './../assets/javascript.webp';
+import typescript from './../assets/typescript.webp';
+import css from './../assets/css.webp';
+import html from './../assets/html.webp';
+import java from './../assets/java.webp';
+import cpp from './../assets/cpp.webp';
+import python from './../assets/python.webp';
 
 function Skills () {
     return(
         <div id="skills">
             <h3 className="title">SKILLS</h3>
             <b className="category-text">Languages</b>
-            <ul>
-                <li className="skill-text">Typescript</li>
+            <div className="skill-icon-container">
+                {/* <li className="skill-text">Typescript</li>
                 <li className="skill-text">Javascript</li>
                 <li className="skill-text">HTML</li>
                 <li className="skill-text">CSS</li>
                 <li className="skill-text">Java</li>
                 <li className="skill-text">C/C++</li>
                 <li className="skill-text">Python</li>
-                <li className="skill-text">SQL</li>
-            </ul>
+                <li className="skill-text">SQL</li> */}
+                <img src={javascript} alt="JS Icon" className="skill-icon" />
+                <img src={typescript} alt="TS Icon" className="skill-icon" />
+                <img src={css} alt="CSS Icon" className="skill-icon" />
+                <img src={html} alt="HTML Icon" className="skill-icon" />
+                <img src={java} alt="Java Icon" className="skill-icon" />
+                <img src={cpp} alt="C Plus Plus Icon" className="skill-icon" />
+                <img src={python} alt="Python Icon" className="skill-icon" />
+            </div>
             <b className="category-text">Tools</b>
             <ul>
                 <li className="skill-text">Appium</li>

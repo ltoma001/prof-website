@@ -1,18 +1,14 @@
 .footer {
-    width: 100%;
-    left: 0;
-    bottom: 0;
+    position: relative;
 }
 
 footer {
+    width: 100vw;
     height: 40px;
     margin: 0 auto;
-    margin-top: 10px;
     background-color: #ccd5ae;
     justify-content: center;
     align-items: center;
-    padding-right: 2%;
-    padding-left: 2%;
     display: flex;
 }
 
