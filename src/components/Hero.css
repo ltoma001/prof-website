@@ -1,0 +1,46 @@
+#home {
+    margin-top: 60px;
+    height: 80vh;
+    background-color: #faedcd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.content-left {
+    padding-right: 12px;
+}
+
+h1 {
+    padding-bottom: 10px;
+    color: #283618;
+    font-weight: 500;
+}
+
+h2 {
+    color: #344e41;
+    font-weight: 300;
+}
+
+.logo-container {
+    padding-top: 20px;
+}
+
+.small-image{
+    max-width: 50px;
+    border-radius: 20%;
+    margin-right: 5px;
+}
+
+.content-right {
+    padding-left: 12px;
+}
+
+.headshot{
+    max-width: 300px;
+    border-radius: 50%;
+}

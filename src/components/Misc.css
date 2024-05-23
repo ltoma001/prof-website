@@ -1,0 +1,34 @@
+#misc {
+    margin-top: 10px;
+    min-height: 40%;
+    background-color: #e9edc9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+.title {
+    color: #6c584c;
+    font-weight: 900;
+}
+
+/* .degree-text {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.date-text {
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.gpa-text {
+    font-weight: 300;
+    font-size: 18px;
+} */
