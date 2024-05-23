@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/prof-website/static/css/main.44604142.css",
-    "main.js": "/prof-website/static/js/main.198f9bed.js",
+    "main.css": "/prof-website/static/css/main.3a64d3ab.css",
+    "main.js": "/prof-website/static/js/main.4f5a4e58.js",
     "static/js/453.883557b7.chunk.js": "/prof-website/static/js/453.883557b7.chunk.js",
     "static/media/headshot.jpg": "/prof-website/static/media/headshot.53a7571845f3229e3ff7.jpg",
     "static/media/resume.pdf": "/prof-website/static/media/resume.29c6cd7cd9126bd2424c.pdf",
+    "static/media/python.webp": "/prof-website/static/media/python.acc8d1d124bca2d7b1fb.webp",
+    "static/media/java.webp": "/prof-website/static/media/java.afbaac150ba61d8e29e2.webp",
+    "static/media/css.webp": "/prof-website/static/media/css.6e91e98e5a7b853d0c38.webp",
+    "static/media/cpp.webp": "/prof-website/static/media/cpp.28fcb033ac8c65d86586.webp",
+    "static/media/html.webp": "/prof-website/static/media/html.de35146995fd53fa9fa2.webp",
+    "static/media/github.webp": "/prof-website/static/media/github.aefaabb5f0d57c17cba3.webp",
+    "static/media/javascript.webp": "/prof-website/static/media/javascript.7ca55f78e5ad51077b51.webp",
+    "static/media/typescript.webp": "/prof-website/static/media/typescript.2b3546b081e6b3fead08.webp",
     "index.html": "/prof-website/index.html",
-    "main.44604142.css.map": "/prof-website/static/css/main.44604142.css.map",
-    "main.198f9bed.js.map": "/prof-website/static/js/main.198f9bed.js.map",
+    "main.3a64d3ab.css.map": "/prof-website/static/css/main.3a64d3ab.css.map",
+    "main.4f5a4e58.js.map": "/prof-website/static/js/main.4f5a4e58.js.map",
     "453.883557b7.chunk.js.map": "/prof-website/static/js/453.883557b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44604142.css",
-    "static/js/main.198f9bed.js"
+    "static/css/main.3a64d3ab.css",
+    "static/js/main.4f5a4e58.js"
   ]
 }
