@@ -1,4 +1,7 @@
 import './Hero.css';
+import github from './../assets/github.png';
+import linkedin from './../assets/linkedin.png';
+import headshot from './../assets/headshot.jpg';
 
 function Hero () {
     return (
@@ -9,16 +12,16 @@ function Hero () {
                 <h2>Former Product Development Intern @ Quicken Inc</h2>
                 <h2>Former Mobile QA Intern @ Quicken Inc</h2>
                 <div className="logo-container">
-                    <a href="https://github.com/ltoma001">
-                        <img src="/github.png" alt="Github" className="small-image"/>
+                    <a href="https://github.com/ltoma001" target="_blank">
+                        <img src={github} alt="Github" className="small-image"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/lauren-tomasi/">
-                        <img src="/linkedin.png" alt="LinkedIn" className="small-image" />
+                    <a href="https://www.linkedin.com/in/lauren-tomasi/" target="_blank">
+                        <img src={linkedin} alt="LinkedIn" className="small-image" />
                     </a>
                 </div>
             </div>
             <div className="content-right">
-            <img src="/headshot.jpg" alt="Headshot" className="headshot" />
+            <img src={headshot} alt="Headshot" className="headshot" />
             </div>
         </div>
     )
