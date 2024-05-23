@@ -8,16 +8,39 @@ import Skills from './components/Skills'
 import Misc from './components/Misc';
 import Footer from './components/Footer';
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  })
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
+
 function App() {
   return (
     <div className="app">
       <Header/>
       <Hero/>
-      <About/>
-      <Skills/>
-      <Education/>
-      <Experience/>
-      <Misc/>
+      <div className="hidden">
+        <About/>
+      </div>
+      <div className="hidden">
+        <Skills/>
+      </div>
+      <div className="hidden">
+        <Education/>
+      </div>
+      <div className="hidden">
+        <Experience/>
+      </div>
+      <div className="hidden">
+        <Misc/>
+      </div>
       <Footer/>
     </div>
   );
