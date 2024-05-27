@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Theta Tau Professional Engineering Fraternity",
+        "imageSrc": "misc/tt.JPEG",
+        "description": "Served as Professional Development Chair at Sigma Delta Chapter, hosting quarterly events by leading resume workshops and interview preparations.",
+        "skills": [ "Brotherhood", "Professionalism", "Service"],
+        "site": "https://thetatau.org/"
+    },
+    {
+        "title": "Girls Who Code",
+        "imageSrc": "misc/gwc.png",
+        "description": "Served as Vice President at SD Miramar College, organizing and leading biweekly general meetings to teach coding fundamentals to students with minimal technical background and foster an inclusive environment.",
+        "skills": [ "Bravery", "Sisterhood", "Activism"],
+        "site": "https://girlswhocode.com/"
+    },
+    {
+        "title": "Samahan Filipino American Performing Arts & Education Center",
+        "imageSrc": "misc/samahan.jpeg",
+        "description": "Performed as Company Dancer following apprenticeship, leading workshops to contribute to the preservation and development of tradition-based performing.",
+        "skills": [ "Dance", "Music", "Culture"],
+        "site": "https://samahanarts.org/"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Product Development Intern",
+      "organization": "Quicken Inc",
+      "startDate": "June 2023",
+      "endDate": "Sep 2023",
+      "experiences": ["Completed and released 2 personal projects into production", "Led design to develop homescreen dashboard card", "Developed and tested 5+ bug fixes"],
+      "imageSrc": "history/quicken.svg"
+    },
+    {
+      "role": "Mobile QA Intern",
+      "organization": "Quicken Inc",
+      "startDate": "May 2022",
+      "endDate": "Aug 2022",
+      "experiences": ["Designed automation test framework", "Introduced CI/CD to mobile application pipeline", "Implemented 20+ test scripts in Java"],
+      "imageSrc": "history/quicken.svg"
+    }
+  ]

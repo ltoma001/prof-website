@@ -1,0 +1,70 @@
+@import url("../../vars.css");
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 37px;
+    gap: 40px;
+}
+
+.eduItem {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 24px;
+    list-style: none;
+    padding: 24px;
+    background-color: var(--color-dark);
+    background-image: linear-gradient(
+        -90deg,
+        rgba(165, 215, 232, 0.42) 0%,
+        var(--color-dark) 100%
+    );
+    background-size: 0 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.eduItem:hover {
+    background-size: 100% 100%;
+}
+
+.degree {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: right;
+}
+
+.degreeInfoList {
+    margin-top: 10px;
+}
+
+.degreeInfo {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
