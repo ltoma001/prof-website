@@ -8,10 +8,12 @@ export const Education = () => {
         <div className={styles.content}>
             <div className={styles.eduItem}>
                 <table>
-                    <tr>
-                        <td className={styles.degree}>B.S. in Computer Science @ University of California, Riverside</td>
-                        <td className={styles.date}>Expected Mar 2023</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className={styles.degree}>B.S. in Computer Science @ University of California, Riverside</td>
+                            <td className={styles.date}>Expected Mar 2023</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <ul className={styles.degreeInfoList}>
                     <li className={styles.degreeInfo}>Chancellor's Honor List 2023</li>
@@ -20,10 +22,12 @@ export const Education = () => {
             </div>
             <div className={styles.eduItem}>
                 <table>
-                    <tr>
-                        <td className={styles.degree}>A.S. in Computer Science @ San Diego Miramar College</td>
-                        <td className={styles.date}>May 2022</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className={styles.degree}>A.S. in Computer Science @ San Diego Miramar College</td>
+                            <td className={styles.date}>May 2022</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <ul className={styles.degreeInfoList}>
                     <li className={styles.degreeInfo}>Graduated with Honors</li>
