@@ -1,6 +1,5 @@
 {
-  "homepage": "https://ltoma001.github.io/prof-website",
-  "name": "react-portfolio",
+  "name": "prof-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
