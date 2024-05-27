@@ -31,18 +31,16 @@ export const About = () => {
                     <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Job Hunter</h3>
-                        <p>
-                            I'm currently working with React and React Native, in combination with Javascript, Typescript and CSS<br/>
-                            <div className={styles.btnContainer}>
-                                <a
-                                    href={getImageUrl("about/resume.pdf")}
-                                    target="_blank"
-                                    className={styles.resume}
-                                >
-                                    My Resume
-                                </a>
-                            </div>
-                        </p>
+                        <p>I'm currently working with React and React Native, in combination with Javascript, Typescript and CSS<br/></p>
+                        <div className={styles.btnContainer}>
+                            <a
+                                href={getImageUrl("about/resume.pdf")}
+                                target="_blank"
+                                className={styles.resume}
+                            >
+                                My Resume
+                            </a>
+                        </div>
                     </div>
                 </li>
             </ul>

@@ -37,6 +37,14 @@
     text-decoration: none;
 }
 
+.title:hover {
+    color: var(--color-primary);
+}
+
+.menuItems a:hover {
+    color: var(--color-primary);
+}
+
 @media screen and (width < 850px) {
     .navbar {
         flex-direction: column;

@@ -10,10 +10,12 @@
     width: 100vw;
     padding: 58px 10%;
     gap: 10px;
+    align-items: center;
 }
 
 .text {
     margin-right: 10px;
+    text-align: center;
 }
 
 .text h2 {
@@ -49,6 +51,23 @@
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+.link a img {
+    width: 50px;
+    background: none;
+    transition: all 0.2s ease-in-out 0s;
+    pointer-events: auto;
+}
+
+.link a img:hover {
+    transform: scale(1.2);
+    background: var(--color-primary);
+    border-radius: 15%;
+}
+
+#contact1-1:hover ~ #contact1-2 {
+    color: var(--color-primary);
 }
 
 @media screen and (width < 850px) {
