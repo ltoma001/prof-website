@@ -20,7 +20,7 @@
 
 .title {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .description {
@@ -57,7 +57,7 @@
     text-decoration: none;
     color: var(--color-text);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
