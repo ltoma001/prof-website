@@ -1,5 +1,9 @@
 # Personal Portfolio Site
 
+https://ltoma001.github.io/prof-website/
+
+- Some information on site needs to be updated
+
 ## Built with
 - React
 - Vite
